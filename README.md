@@ -1,7 +1,10 @@
 # cascade_picker
 
-> A Vue.js project
+> 利用 mint ui 的picker 完成一个省、市、区三级联动
+> 数据源来自度娘json数据
+> 俩种触发方式：1、首次进入触发 2、点击事件触发
 
+> ！！！采用三个picker的方式，一个picker多个values会出现多次computed，导致联动失败的情况，已跳坑。
 ## Build Setup
 
 ``` bash
